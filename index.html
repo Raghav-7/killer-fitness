@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Killer Lifestyle & Fitness Studio — Nerkundram, Chennai | Premium Gym</title>
+  <meta name="description" content="Killer Life Style & Fitness Studio is Nerkundram's premium conditioning hub. Join today for elite Weight Training, HIIT Conditioning, and VIP 1-on-1 Personal Training in Koyambedu/Nerkundram.">
+  <meta name="keywords" content="Gym in Nerkundram, Fitness Studio Koyambedu, HIIT Classes Chennai, Powerlifting Poonamallee High Road, Personal Trainer Chennai">
+  <meta name="author" content="Killer Fitness Studio">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://killerfitness.in">
+  <meta property="og:title" content="Killer Lifestyle & Fitness Studio — Nerkundram, Chennai">
+  <meta property="og:description" content="Unleash your full potential at Nerkundram's most intense conditioning gym. Claim your free 1-Day Trial Pass and get customized membership plans today.">
+  
+  <!-- Tab Icon (Pulsing Lightning Bolt Emoji SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        ⚡ Killer <span>Fitness</span>
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="#planner" class="nav-link">Fitness Planner</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#location" class="nav-link">Studio Info</a>
+        <a href="#planner" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.8rem; border-radius: var(--radius-sm);">Claim Free Pass</a>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="section-tag">ELITE CONDITIONING HUB IN NERKUNDRAM</span>
+        <h1>Unleash the Beast. <br><span class="text-gradient">Own Your Physique.</span></h1>
+        <p>This is not a casual workout club. Killer Lifestyle and Fitness Studio is Nerkundram's premier powerhouse for serious athletes, heavy powerlifters, and high-intensity aerobic training.</p>
+        <div class="hero-cta">
+          <a href="#planner" class="btn btn-primary">Start Free Trial</a>
+          <a href="#programs" class="btn btn-secondary">Explore Programs</a>
+        </div>
+        
+        <div class="hero-badge-group">
+          <div class="hero-badge">
+            <span class="number">4.9★</span>
+            <span class="label">Google Rating</span>
+          </div>
+          <div class="hero-badge">
+            <span class="number">100%</span>
+            <span class="label">High Intensity</span>
+          </div>
+          <div class="hero-badge">
+            <span class="number">Elite</span>
+            <span class="label">Coaches Only</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Calculator Card (Scaffolded Right Side of Hero) -->
+      <div id="planner" class="calculator-card glass-card">
+        <span class="section-tag">DYNAMIC PLATFORM</span>
+        <h2 class="calc-title">Killer Fitness Planner</h2>
+        <p class="calc-subtitle">Enter your stats to instantly calculate your body metrics and unlock your high-intensity training pass.</p>
+        
+        <div class="form-container">
+          <div class="form-row">
+            <div class="input-group">
+              <label class="input-label" for="weight">Your Weight</label>
+              <div class="input-wrapper">
+                <input class="form-control" type="number" id="weight" value="75" min="30" max="250" required>
+                <span class="input-unit">KG</span>
+              </div>
+            </div>
+            <div class="input-group">
+              <label class="input-label" for="height">Your Height</label>
+              <div class="input-wrapper">
+                <input class="form-control" type="number" id="height" value="180" min="100" max="250" required>
+                <span class="input-unit">CM</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="input-group" style="grid-column: span 2;">
+              <label class="input-label" for="age">Your Age</label>
+              <input class="form-control" type="number" id="age" value="26" min="10" max="100" required>
+            </div>
+          </div>
+          
+          <div class="input-group" style="margin-bottom: 28px;">
+            <label class="input-label" style="margin-bottom: 8px;">Select Your Target Goal</label>
+            <div class="goal-selector">
+              <button class="btn-select active" data-goal="muscle">Hypertrophy</button>
+              <button class="btn-select" data-goal="loss">Fat Shred</button>
+              <button class="btn-select" data-goal="core">Core Power</button>
+              <button class="btn-select" data-goal="personal">1-on-1 VIP</button>
+            </div>
+          </div>
+          
+          <!-- Dynamic Results Area -->
+          <div class="calc-results">
+            <div class="results-grid">
+              <div class="result-box">
+                <div id="bmi-value" class="result-val">23.1</div>
+                <div id="bmi-label" class="result-label">Normal Range</div>
+              </div>
+              <div class="result-box">
+                <div id="protein-value" class="result-val">135g</div>
+                <div class="result-label">Target Protein / Day</div>
+              </div>
+            </div>
+            
+            <div class="recommendation-alert">
+              <div class="info">
+                <span class="tag">YOUR DYNAMIC MATCH</span>
+                <div id="recom-program" class="program-name">Killer Powerlifting & Hypertrophy</div>
+                <div id="recom-desc" class="program-desc">Elite structural weight training focusing on heavy compounds, absolute power, and solid size.</div>
+              </div>
+              <div id="recom-icon" class="icon">🏋️</div>
+            </div>
+            
+            <!-- WhatsApp URL Link -->
+            <a id="whatsapp-cta" href="#" target="_blank" class="btn cta-btn-whatsapp">
+              Claim Free Trial Pass on WhatsApp 💬
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PROGRAMS / SERVICES SECTION
+       ========================================== -->
+  <section id="programs" class="programs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CONDITIONING PATHWAYS</span>
+        <h2>High-Performance Programs</h2>
+        <p>Push past boundaries under the direction of Chennai's premier trainers.</p>
+      </div>
+      
+      <div class="programs-grid">
+        <!-- Card 1: Powerlifting -->
+        <div class="program-card glass-card">
+          <div class="program-icon">🏋️</div>
+          <h3>Powerlifting & Hypertrophy</h3>
+          <p>Develop serious strength and dense muscle fibers using solid Olympic bars, heavy power racks, and targeted mechanical splits.</p>
+          <ul class="program-features">
+            <li>Heavy squat/bench/deadlift coaching</li>
+            <li>Progressive overload layouts</li>
+            <li>Hypertrophy-specific volume splits</li>
+          </ul>
+          <a href="#planner" class="btn btn-secondary">Get Recommended</a>
+        </div>
+        
+        <!-- Card 2: Core & Strength -->
+        <div class="program-card glass-card">
+          <div class="program-icon">⚡</div>
+          <h3>Core Engine Conditioning</h3>
+          <p>Unleash full structural stability and carve out your midsection with high-tension core routines and dynamic stabilizers.</p>
+          <ul class="program-features">
+            <li>High-intensity spinal protection</li>
+            <li>Midsection conditioning & definition</li>
+            <li>Functional power transmission</li>
+          </ul>
+          <a href="#planner" class="btn btn-secondary">Get Recommended</a>
+        </div>
+        
+        <!-- Card 3: HIIT & Shred -->
+        <div class="program-card glass-card">
+          <div class="program-icon">🔥</div>
+          <h3>HIIT & Cardio Shred</h3>
+          <p>Melt off body fat and skyrocket your endurance with rapid interval sets, functional rows, and explosive plyometrics.</p>
+          <ul class="program-features">
+            <li>Explosive fat-incinerating patterns</li>
+            <li>Advanced cardiac conditioning</li>
+            <li>High-speed metabolic triggers</li>
+          </ul>
+          <a href="#planner" class="btn btn-secondary">Get Recommended</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       LOCATION & HOURS SECTION
+       ========================================== -->
+  <section id="location" class="location-section">
+    <div class="container location-grid">
+      <div class="studio-info">
+        <span class="section-tag">FIND THE TERMINAL</span>
+        <h2>Convenient Location in Nerkundram</h2>
+        <p>We are strategically located directly on Poonamallee High Road in Nerkundram/Koyambedu, featuring quick highway access and secure parking fields.</p>
+        
+        <div class="info-cards">
+          <div class="info-card">
+            <span class="icon">📍</span>
+            <h4>Physical Address</h4>
+            <p>TERMINAL, #1&2, G K, Poonamallee High Rd, Nerkundram, Chennai, Tamil Nadu - 600107.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Killer+Lifestyle+and+Fitness+Studio+Nerkundram+Chennai" target="_blank" style="color: var(--accent-red); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; margin-top: 8px; display: inline-flex; align-items: center; gap: 4px;">
+              Open in Google Maps 🗺️ ↗
+            </a>
+          </div>
+          <div class="info-card">
+            <span class="icon">🕒</span>
+            <h4>Operational Hours</h4>
+            <p><strong>Monday – Saturday:</strong><br>6:00 AM – 10:00 PM<br><strong>Sunday:</strong> Closed</p>
+          </div>
+          <div class="info-card">
+            <span class="icon">📞</span>
+            <h4>Phone Outreach</h4>
+            <p>Call or WhatsApp at:<br>+91 99999 99999 <br><span style="font-size: 0.75rem; color: var(--text-muted); font-style: italic;">(Placeholder number - swap in seconds)</span></p>
+          </div>
+          <div class="info-card">
+            <span class="icon">🏨</span>
+            <h4>Key Landmark</h4>
+            <p>Situated right on Poonamallee High Road, directly opposite the famous Palmshore Hotel.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Google Maps Frame (Custom dynamic search layout) -->
+      <div class="map-card glass-card">
+        <iframe 
+          src="https://maps.google.com/maps?q=Killer+Lifestyle+and+Fitness+Studio+Nerkundram+Chennai&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          ⚡ Killer <span>Fitness</span>
+        </div>
+        <p class="footer-tagline">Intense athletic conditioning, premium powerlifting, and elite HIIT coaching on Poonamallee High Rd, Chennai.</p>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Killer Life Style and Fitness Studio. Crafted locally for Nerkundram.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       STICKY FLOATING ACTIONS
+       ========================================== -->
+  <!-- Floating WhatsApp Hotkey (Placeholder number) -->
+  <a href="https://wa.me/919999999999?text=Hi%20Killer%20Fitness!%20I'd%20like%20to%20claim%20my%20Free%201-Day%20Trial%20Pass." target="_blank" class="whatsapp-sticky" style="background-color: #25d366;" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <!-- JavaScript Application -->
+  <script src="js/app.js"></script>
+</body>
+</html>
