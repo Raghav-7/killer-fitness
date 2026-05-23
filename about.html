@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    if (window.location.hostname.includes('surge.sh')) {
+      window.location.replace('https://killer-fitness.vercel.app/about.html');
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>About Us — Killer Lifestyle & Fitness Studio | Nerkundram, Chennai</title>
+  <meta name="description" content="Discover Killer Lifestyle & Fitness Studio, Nerkundram's premium conditioning hub. Elite trainers, heavy weight chambers, and high-intensity aerobic setups.">
+  
+  <!-- Tab Icon (Pulsing Lightning Bolt Emoji SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    .subpage-hero {
+      padding-top: 160px;
+      padding-bottom: 60px;
+      text-align: center;
+      position: relative;
+    }
+    .subpage-hero::before {
+      content: '';
+      position: absolute;
+      top: -10%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(var(--accent-red-rgb), 0.08) 0%, transparent 70%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    .about-story {
+      padding: 60px 0;
+    }
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .story-content h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+    .story-content p {
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+    .features-list {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .feature-item::before {
+      content: '⚡';
+      color: var(--accent-red);
+    }
+    .team-section {
+      padding: 80px 0;
+      background-color: var(--bg-secondary);
+      border-y: 1px solid var(--glass-border);
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin-top: 48px;
+    }
+    .member-card {
+      padding: 32px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: var(--transition-normal);
+    }
+    .member-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(var(--accent-red-rgb), 0.25);
+    }
+    .member-photo {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(135deg, var(--bg-tertiary) 0%, rgba(var(--accent-red-rgb), 0.15) 100%);
+      border: 2.5px solid var(--accent-red);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+    .member-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 4px;
+    }
+    .member-card .role {
+      color: var(--accent-red);
+      font-weight: 700;
+      font-family: var(--font-headings);
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+    .member-card p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        ⚡ Killer <span>Fitness</span>
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html#planner" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.8rem; border-radius: var(--radius-sm);">Claim Free Pass</a>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       SUBPAGE HERO
+       ========================================== -->
+  <section class="subpage-hero">
+    <div class="container">
+      <span class="section-tag">THE TERMINAL</span>
+      <h1>Our Creed & Power</h1>
+      <p class="calc-subtitle" style="max-width: 600px; margin: 8px auto 0 auto;">Nerkundram's premium powerhouse for serious weight training, powerlifting compounds, and high-intensity conditioning.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT STORY
+       ========================================== -->
+  <section class="about-story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image glass-card" style="height: 380px; display: flex; align-items: center; justify-content: center; font-size: 6rem; background: linear-gradient(135deg, rgba(var(--accent-red-rgb), 0.1), rgba(0,0,0,0.4));">
+          🏋️⚡
+        </div>
+        <div class="story-content">
+          <span class="section-tag" style="margin-bottom: 12px;">ESTABLISHED 2024</span>
+          <h2>The Journey of Killer</h2>
+          <p>Founded to provide an intense, distraction-free environment for athletes, lifters, and fitness enthusiasts in Chennai. Killer Lifestyle & Fitness Studio rejects generic, crowded setups and offers a raw, heavy-duty facility right on Poonamallee High Road.</p>
+          <p>Our studio features Olympic-grade platforms, massive dumbbell configurations, high-impact cardiovascular rowers, and specialized functional setups. Led exclusively by certified strength coaches, we push you to break past old limits.</p>
+          
+          <div class="features-list">
+            <div class="feature-item">Elite Strength Coaches Only</div>
+            <div class="feature-item">Olympic Powerlifting Platforms</div>
+            <div class="feature-item">Intense Conditioning Splits</div>
+            <div class="feature-item">Modern Showers & Secure Parking</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TEAM SECTION
+       ========================================== -->
+  <section class="team-section">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 0;">
+        <span class="section-tag">ELITE COACHING</span>
+        <h2>Meet Our Strength Specialists</h2>
+        <p>Our coaches are certified in biomechanics, form execution, and high-intensity cardiovascular programming.</p>
+      </div>
+      
+      <div class="team-grid">
+        <!-- Trainer 1 -->
+        <div class="member-card glass-card">
+          <div class="member-photo">🏋️</div>
+          <h3>Arjun V.</h3>
+          <span class="role">Head Strength Coach</span>
+          <p>Certified in advanced powerlifting biomechanics and nutritional program designs. 8+ years coaching heavy compounds.</p>
+        </div>
+
+        <!-- Trainer 2 -->
+        <div class="member-card glass-card">
+          <div class="member-photo">🔥</div>
+          <h3>Vikram S.</h3>
+          <span class="role">HIIT Conditioning Lead</span>
+          <p>Specialist in high-tempo cardiovascular intervals, explosive plyometrics, and weight reduction structures.</p>
+        </div>
+
+        <!-- Trainer 3 -->
+        <div class="member-card glass-card">
+          <div class="member-photo">⚡</div>
+          <h3>Rajesh K.</h3>
+          <span class="role">Athletic Performance Coach</span>
+          <p>Specializes in functional mobility splits, speed and agility training, and core stabilization routines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          ⚡ Killer <span>Fitness</span>
+        </div>
+        <p class="footer-tagline">Intense athletic conditioning, premium powerlifting, and elite HIIT coaching on Poonamallee High Rd, Chennai.</p>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Killer Life Style and Fitness Studio. Crafted locally for Nerkundram.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Sticky -->
+  <a href="https://wa.me/919999999999?text=Hi%20Killer%20Fitness!%20I'd%20like%20to%20claim%20my%20Free%201-Day%20Trial%20Pass." target="_blank" class="whatsapp-sticky" style="background-color: #25d366;" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <!-- JavaScript Toggle -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+
+      if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+          const spans = menuToggle.querySelectorAll('span');
+          if (navMenu.classList.contains('active')) {
+            spans[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
+            spans[1].style.opacity = '0';
+            spans[2].style.transform = 'rotate(-45deg) translate(6px, -6px)';
+          } else {
+            spans[0].style.transform = 'none';
+            spans[1].style.opacity = '1';
+            spans[2].style.transform = 'none';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
