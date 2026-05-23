@@ -1,6 +1,6 @@
 // Redirect Surge visitors to the new Vercel deployment
 if (window.location.hostname.includes('surge.sh')) {
-  window.location.replace('https://killer-fitness-raghav-7.vercel.app');
+  window.location.replace('https://killer-fitness.vercel.app');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
